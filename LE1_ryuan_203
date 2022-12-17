@@ -1,0 +1,35 @@
+Script started on 2022-01-31 21:39:00-05:00
+bash-4.4$ cp Le[KE1.c LE1_ryuan_203.c
+bash-4.4$ ls
+CS_262	     helios_html  LE1.c		   LE1Script		 Task_01_G01313261.o
+exercise1.c  hermes_web   LE1_ryuan_203.c  Task_01_G01313261#.c
+bash-4.4$ pwd
+/home/ryuan
+bash-4.4$ clear
+[3J[H[2Jbash-4.4$ mkdir LE1
+bash-4.4$ mv LE1_ryuan_203.c LE1
+bash-4.4$ fm [K[K[Krm LE1.c
+bash-4.4$ cd LE1
+bash-4.4$ cat LE1_ryuan_203.c 
+/*This is a C program coded by RongLian Yuan.*/
+#include<stdio.h>
+int main(){
+	printf("Hello, I'm Ryan and I'm doing my lab exercise 1.\n");
+	return 0;
+}
+
+bash-4.4$ gcc LE1_ryuan_203.c  -o LE1
+bash-4.4$ ./Le[KE1
+Hello, I'm Ryan and I'm doing my lab exercise 1.
+bash-4.4$ pwd
+/home/ryuan/LE1
+bash-4.4$ ls
+LE1  LE1_ryuan_203.c
+bash-4.4$ cd ..
+bash-4.4$ ls
+CS_262	exercise1.c  helios_html  hermes_web  LE1  LE1Script  Task_01_G01313261#.c  Task_01_G01313261.o
+bash-4.4$ rm -r LE1
+bash-4.4$ exit
+exit
+
+Script done on 2022-01-31 21:42:53-05:00
